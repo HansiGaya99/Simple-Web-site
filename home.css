@@ -144,7 +144,7 @@ body {
     #nav-toggle span:after {
       cursor: pointer;
       border-radius: 1px;
-      height: 4px;
+      height: 6px;
       width: 30px;
       background: pink;
       position: absolute;
@@ -224,7 +224,7 @@ section .section-title {
 }
 
 .mainflip {
-    -webkit-transition: 1s;
+    -webkit-transition: 3s;
     -webkit-transform-style: preserve-3d;
     -ms-transition: 1s;
     -moz-transition: 1s;
