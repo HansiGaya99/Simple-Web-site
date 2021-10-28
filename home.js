@@ -14,6 +14,7 @@ $('.dropdown').click(function(e){
   $("#nav-toggle").click(function() {
         $("nav ul").toggle();
       });
+const $("#nav-toggle") ; 
 
 
 
