@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -15,15 +20,13 @@ body {
   .nav-container {
     max-width: 1000px;
     margin: 0 auto;
-    
   }
-  
   .brand {
     float: left;
     line-height: 70px;
     font-size: 1.4em;
     padding-left: 20px;
-   }
+  }
   
   .brand a {
     color: white;
@@ -36,6 +39,8 @@ body {
   }
   
   nav ul {
+    /* display: flex; */
+    /* flex-direction: row; */
     margin: 0;
     padding: 0;
     list-style: none;
@@ -92,6 +97,33 @@ body {
     top: 0;
     right: 0;
     background-color: #262626;
+  }
+  .radios{
+    display: block;
+    width: 10%;
+    padding-left: 10px;
+    margin: auto;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 110vh;
+    color:white
+  }
+  .prev-arrow{
+    left: 10px;
+  }
+
+  .next-arrow{
+    right: 10px;
+  }
+  #slider{
+    width: 90vw;
+    height: 30vh;
+  }
+  .slides img{
+    width: 99vw;
+    height: auto;
   }
   
   /* Media Query for Navigation */
@@ -172,6 +204,7 @@ body {
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
+  margin-top:90vh;
     background: #eee !important;
 }
 
